@@ -1,16 +1,6 @@
-"""Assignment 6: Vandalism Detection
-
-Please add your code where indicated by "YOUR CODE HERE". You may conduct a
-superficial test of your code by executing this file in a python interpreter.
-
-This assignment asks you to predict the class membership of a Wikipedia edit.
+"""Predict the class membership of a Wikipedia edit.
 The edit is either vandalism or an edit made in good faith. For this assignment
 you may ignore the possibility of edge cases.
-
-This assignment requires interacting with the English Wikipedia's Mediawiki API
-so you will need a connection to the Internet. Part of the assignment involves
-learning to use the Mediawiki API.
-
 """
 
 import requests,re,nltk
